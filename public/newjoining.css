@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    animation: check 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes check {
+    0% {
+        background-color: rgb(255, 255, 255);
+    }
+
+    25% {
+        background-color: rgb(178, 234, 128);
+        ;
+    }
+
+    50% {
+        background-color: rgb(139, 139, 233);
+    }
+
+    75% {
+        background-color: rgb(90, 203, 184);
+    }
+
+    l 100% {
+        background-color: rgb(52, 221, 224);
+    }
+
+}
+
+table {
+    /* width: 70%; */
+    border-collapse: collapse;
+    margin-left: 60px;
+
+}
+
+
+th,
+td {
+    border: 0px solid #000000;
+    padding: 8px;
+    text-align: center;
+
+}
+
+td {
+    background-color: lightyellow;
+    padding: 10px 52px;
+}
+
+th {
+    width: 40%;
+    background-color: rgb(237, 124, 32);
+    color: rgb(10, 9, 9);
+    text-align: left;
+}
+
+#col1 {
+    background-color: rgb(66, 188, 186);
+    text-align: center;
+}
+
+input[type="text"],
+input[type="date"] {
+
+    width: 70%;
+    height: 30px;
+    border: none;
+    text-align:left;
+    outline: none;
+    background-color:rgb(228, 241, 236);
+
+}
+input[type="text"]:focus{
+border-bottom: 1px solid black;
+
+}
+
+input[type="submit"]{
+    margin-left:-300px ;
+    padding: 8px 50px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#kits{
+    margin-left: 70px;
+}
+
+#kit {
+    width: 70%;
+}
